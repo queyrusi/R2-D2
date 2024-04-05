@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../Transformer-Explainability"
+		},
+		{
+			"path": "../../droidhunter-heatmaps"
+		},
+		{
+			"path": "../../droidtransformers-Droidtransformers"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
