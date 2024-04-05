@@ -86,9 +86,9 @@ def generate_heatmap(model, input_tensor, image_path):
 
     cam = AblationCAM(model=model, target_layers=target_layers)
 
-    targets = [ClassifierOutputTarget(1)]
+    # targets = [ClassifierOutputTarget(1)]
 
-    grayscale_cam = cam(input_tensor=input_tensor, targets=targets)
+    grayscale_cam = cam(input_tensor=input_tensor)
     grayscale_cam = grayscale_cam[0, :]
 
     # Get name of file
